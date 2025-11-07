@@ -33,7 +33,8 @@
       "buildResources": "assets"
     },
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "public/favicon.ico"
     },
     "nsis": {
       "oneClick": false,
