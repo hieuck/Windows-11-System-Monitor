@@ -2,11 +2,14 @@
   "name": "windows-11-system-monitor",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "electron.js",
   "homepage": "./",
   "scripts": {
-    "start": "electron .",
-    "package": "electron-packager ."
+    "start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "electron-start": "electron .",
+    "electron-build": "electron-builder",
+    "build": "npm run react-build && npm run electron-build"
   },
   "dependencies": {
     "react": "^18.2.0",
