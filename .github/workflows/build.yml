@@ -21,7 +21,7 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm install
+      run: npm install  # Ensure this step is present
 
     - name: Build and package application
       run: npm run package
