@@ -1,9 +1,13 @@
 {
   "name": "windows-11-system-monitor",
-  "version": "0.1.0-beta",
+  "version": "1.0.0",
   "private": true,
-  "main": "electron.js",
+  "main": "index.js",
   "homepage": "./",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ."
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,12 +19,6 @@
     "@types/react-dom": "^18.2.0",
     "electron": "^29.1.5",
     "electron-builder": "^24.13.3"
-  },
-  "scripts": {
-    "start": "./node_modules/.bin/react-scripts start",
-    "build": "./node_modules/.bin/react-scripts build",
-    "electron:start": "./node_modules/.bin/electron .",
-    "package": "npm run build && ./node_modules/.bin/electron-builder"
   },
   "build": {
     "appId": "dev.yourname.systemmonitor",
