@@ -1,0 +1,5 @@
+{
+  "name": "Windows 11 System Monitor",
+  "description": "A draggable system monitor widget for Windows 11, tracking CPU, GPU, RAM, Network, and temperatures with a customizable layout and display options.",
+  "requestFramePermissions": []
+}
